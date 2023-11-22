@@ -36,3 +36,7 @@ stocks = [[1, 2], [4, 3], [5, 6], [6, 7]]
 amount = 12
 output = max_stocks(stocks, amount)
 print(output)
+```
+
+## Alan Campos - argelalan@csu.fullerton.edu
+## Jimmie Gilmer - 
