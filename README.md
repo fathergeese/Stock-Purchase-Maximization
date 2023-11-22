@@ -1,13 +1,13 @@
 # Max Stocks Finder
 
-This Python script (`max_stocks.py`) finds the maximum number of stocks you can buy with a given amount of money. It explores all possible combinations of stocks and returns the maximum number of stocks that can be bought without exceeding the specified amount.
+This Python script (`max_stocks_dynamic.py`) finds the maximum number of stocks you can buy with a given amount of money. It explores all possible subset of stocks and returns the maximum number of stocks that can be bought without exceeding the specified amount.
 
 ## Usage
 
 1. **Input:**
-    - Modify the `stocks` list to represent the available stocks. Each stock should be a list of two elements: the first element is the number of stocks available, and the second element is the value of each stock.
+    - Modify the `stocks` tuple to represent the available stocks. Each stock should be a tuple of two elements: the first element is the number of stocks available, and the second element is the value of each stock.
     ```python
-    stocks = [[1, 2], [4, 3], [5, 6], [6, 7]]
+    stocks = ((1, 2), (4, 3), (5, 6), (6, 7))
     ```
 
     - Adjust the `amount` variable to the amount of money you have.
@@ -18,7 +18,7 @@ This Python script (`max_stocks.py`) finds the maximum number of stocks you can 
 2. **Run the script:**
     - Execute the script in your Python environment.
     ```bash
-    python max_stocks.py
+    python max_stocks_dynamic.py
     ```
 
 3. **Output:**
@@ -27,16 +27,6 @@ This Python script (`max_stocks.py`) finds the maximum number of stocks you can 
     output = max_stocks(stocks, amount)
     print(output)
     ```
-
-## Example
-
-For the provided `stocks` and `amount`:
-```python
-stocks = [[1, 2], [4, 3], [5, 6], [6, 7]]
-amount = 12
-output = max_stocks(stocks, amount)
-print(output)
-```
 
 ### Alan Campos - argelalan@csu.fullerton.edu
 ### Jimmie Gilmer - 
