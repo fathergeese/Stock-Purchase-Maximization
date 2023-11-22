@@ -38,10 +38,5 @@ output = max_stocks(stocks, amount)
 print(output)
 ```
 
-<<<<<<< HEAD
 ## Alan Campos - argelalan@csu.fullerton.edu
 ## Jimmie Gilmer - 
-=======
-Alan Campos - argelalan@csu.fullerton.edu
-Jimmie Gilmer - 
->>>>>>> 115fc1bcc26ea66401da3cabdded38dddf1d50fe
