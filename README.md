@@ -1,32 +1,54 @@
-# Max Stocks Finder
+# Stock Purchase Maximization
 
-This Python script (`max_stocks_dynamic.py`) finds the maximum number of stocks you can buy with a given amount of money. It explores all possible subset of stocks and returns the maximum number of stocks that can be bought without exceeding the specified amount.
+## Exhaustive Search
+(`stock_maximization.py`) maximizes the number of stocks that can be bought with a given amount of money. It explores all possible combinations of stocks from different companies and returns the combination that maximizes the total number of stocks without exceeding the specified amount.
+
+## Dynamic Approach
+(`max_stocks_dynamic.py`) finds the maximum number of stocks you can buy with a given amount of money. It explores all possible subset of stocks and returns the maximum number of stocks that can be bought without exceeding the specified amount.
 
 ## Usage
 
 1. **Input:**
-    - Modify the `stocks` tuple to represent the available stocks. Each stock should be a tuple of two elements: the first element is the number of stocks available, and the second element is the value of each stock.
-    ```python
-    stocks = ((1, 2), (4, 3), (5, 6), (6, 7))
-    ```
+    - Create a text file (`input.txt`) with the following format:
+        ```
+        max_amount1
+        [stocks1, value1], [stocks2, value2], ...
+        max_amount2
+        [stocks1, value1], [stocks2, value2], ...
+        ...
+        ```
+        Each block represents a test case, where `max_amount` is the maximum amount of money, and the list represents stocks for different companies.
 
-    - Adjust the `amount` variable to the amount of money you have.
-    ```python
-    amount = 12
-    ```
+    - Ensure that the input follows the constraints:
+        - 0 <= len(companies) <= 100000
 
 2. **Run the script:**
     - Execute the script in your Python environment.
     ```bash
-    python max_stocks_dynamic.py
+    python <stock_maximization_script>.py
     ```
 
 3. **Output:**
-    - The script will print the maximum number of stocks that can be bought with the given amount.
-    ```python
-    output = max_stocks(stocks, amount)
-    print(output)
+    - The script will write the results to an output file (`output1.txt`).
+    - The output file will contain lines like:
+        ```
+        Input 1: Number of stocks = <number_of_stocks>
+        Input 2: Number of stocks = <number_of_stocks>
+        ...
+        ```
+        Or, if the input is invalid:
+        ```
+        Sorry, this input is invalid.
     ```
+## Example
+
+For the provided `input.txt`:
+```plaintext
+10
+[1, 2], [4, 3], [5, 6], [6, 7]
+20
+[2, 3], [3, 4], [4, 5]
+```
 
 ### Alan Campos - argelalan@csu.fullerton.edu
 ### Jimmie Gilmer - 

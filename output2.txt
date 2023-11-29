@@ -1,0 +1,10 @@
+Input 1: Number of stocks = 11
+Input 2: Number of stocks = 12
+Input 3: Number of stocks = 14
+Input 4: Number of stocks = 19
+Input 5: Number of stocks = 23
+Input 6: Number of stocks = 41
+Input 7: Number of stocks = 99
+Input 8: Number of stocks = 11
+Input 9: Number of stocks = 0
+Input 10: Number of stocks = 18
