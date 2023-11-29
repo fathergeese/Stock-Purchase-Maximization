@@ -39,7 +39,6 @@
         Or, if the input is invalid:
         ```
         Sorry, this input is invalid.
-    ```
 ## Example
 
 For the provided `input.txt`:
