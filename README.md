@@ -50,4 +50,4 @@ For the provided `input.txt`:
 ```
 
 ### Alan Campos - argelalan@csu.fullerton.edu
-### Jimmie Gilmer - 
+### Jimmie Gilmer - jgilmer@csu.fullerton.edu
